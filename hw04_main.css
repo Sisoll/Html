@@ -1,0 +1,51 @@
+button {
+    font: 16px Tahoma;
+    width: 70px;
+    padding: 5px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+button:hover {
+    background-color: rgb(25, 173, 193);
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-stretch: expanded;
+}
+
+#outLine {
+    width: 480px;
+    min-width: 480px;
+    min-width: 300;
+    border: 1px solid blue;
+    margin: 50px auto;
+    padding-top: 10px;
+}
+
+
+#dropzone {
+    /* width: 300; */
+    min-height: 500px;
+    border: 1px solid black;
+    margin: auto;
+    /* text-align: center; */
+    position: relative;
+
+}
+
+#image {
+    transform: scale(1);
+    transform: rotateX(0);
+
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
